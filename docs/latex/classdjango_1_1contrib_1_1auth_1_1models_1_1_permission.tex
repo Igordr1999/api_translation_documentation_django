@@ -1,0 +1,75 @@
+\hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission}{}\section{django.\+contrib.\+auth.\+models.\+Permission Class Reference}
+\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission}\index{django.\+contrib.\+auth.\+models.\+Permission@{django.\+contrib.\+auth.\+models.\+Permission}}
+Inheritance diagram for django.\+contrib.\+auth.\+models.\+Permission\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_1_1_meta}{Meta}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_adfbb0b3835cfc2877a03a5043e2b6ade}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_adfbb0b3835cfc2877a03a5043e2b6ade}} 
+def {\bfseries \+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_a220ddcbbc7d9400339d135c8184f82bc}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_a220ddcbbc7d9400339d135c8184f82bc}} 
+def {\bfseries natural\+\_\+key} (self)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_a20bd0eaa19fedf4f9066a4a981211a1e}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_a20bd0eaa19fedf4f9066a4a981211a1e}} 
+{\bfseries name}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_ad4d406f729cf5d3d098d16471b3f64b8}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_ad4d406f729cf5d3d098d16471b3f64b8}} 
+{\bfseries max\+\_\+length}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_ab4811ccd7fb815b5d7e0062e932a5271}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_ab4811ccd7fb815b5d7e0062e932a5271}} 
+{\bfseries content\+\_\+type}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_ad72d87d4411e57e8544357afd1d0e819}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_ad72d87d4411e57e8544357afd1d0e819}} 
+{\bfseries verbose\+\_\+name} = \+\_\+(\textquotesingle{}content type\textquotesingle{}),
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_a6f17e55ef3127be0dadda161771487b3}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_a6f17e55ef3127be0dadda161771487b3}} 
+{\bfseries codename}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_a90d50612a6997da5b717d87938e4da38}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_a90d50612a6997da5b717d87938e4da38}} 
+{\bfseries objects}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_adbf6dca9f7db44a38a6e19bfa12cd466}\label{classdjango_1_1contrib_1_1auth_1_1models_1_1_permission_adbf6dca9f7db44a38a6e19bfa12cd466}} 
+{\bfseries dependencies}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}The permissions system provides a way to assign permissions to specific
+users and groups of users.
+
+The permission system is used by the Django admin site, but may also be
+useful in your own code. The Django admin site uses permissions as follows:
+
+    - The "add" permission limits the user's ability to view the "add" form
+      and add an object.
+    - The "change" permission limits a user's ability to view the change
+      list, view the "change" form and change an object.
+    - The "delete" permission limits the ability to delete an object.
+    - The "view" permission limits the ability to view an object.
+
+Permissions are set globally per type of object, not per specific object
+instance. It is possible to say "Mary may change news stories," but it's
+not currently possible to say "Mary may change news stories, but only the
+ones she created herself" or "Mary may only change news stories that have a
+certain status or publication date."
+
+The permissions listed above are automatically created for each model.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/auth/models.\+py\end{DoxyCompactItemize}

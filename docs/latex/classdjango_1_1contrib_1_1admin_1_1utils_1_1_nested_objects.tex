@@ -1,0 +1,64 @@
+\hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects}{}\section{django.\+contrib.\+admin.\+utils.\+Nested\+Objects Class Reference}
+\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects}\index{django.\+contrib.\+admin.\+utils.\+Nested\+Objects@{django.\+contrib.\+admin.\+utils.\+Nested\+Objects}}
+Inheritance diagram for django.\+contrib.\+admin.\+utils.\+Nested\+Objects\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a179d1cb05fb096c850b1e3aca572221c}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a179d1cb05fb096c850b1e3aca572221c}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, args, kwargs)
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_ada405afe0afcbe2eca029a90bfde7c23}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_ada405afe0afcbe2eca029a90bfde7c23}} 
+def {\bfseries add\+\_\+edge} (self, source, target)
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a7803213d24fc50aeeeb932b9746a6c9f}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a7803213d24fc50aeeeb932b9746a6c9f}} 
+def {\bfseries collect} (self, objs, source=None, source\+\_\+attr=None, kwargs)
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_ad9e38dc7dbdb8865cf31ae3cba610206}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_ad9e38dc7dbdb8865cf31ae3cba610206}} 
+def {\bfseries related\+\_\+objects} (self, related, objs)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_afbdc67f5d571f29ac802a0ed270238a3}{nested}} (self, format\+\_\+callback=None)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a356abe52ef30378dd34adec7efd360d7}{can\+\_\+fast\+\_\+delete}} (self, args, kwargs)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a0ac04d5279904b0d2e8f5e8a9602856c}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a0ac04d5279904b0d2e8f5e8a9602856c}} 
+{\bfseries edges}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_acb3c5a056cc30a688f1aae537797b4cb}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_acb3c5a056cc30a688f1aae537797b4cb}} 
+{\bfseries protected}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a34367581c5259e61d2667f7051c9b77f}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a34367581c5259e61d2667f7051c9b77f}} 
+{\bfseries model\+\_\+objs}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a356abe52ef30378dd34adec7efd360d7}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_a356abe52ef30378dd34adec7efd360d7}} 
+\index{django\+::contrib\+::admin\+::utils\+::\+Nested\+Objects@{django\+::contrib\+::admin\+::utils\+::\+Nested\+Objects}!can\+\_\+fast\+\_\+delete@{can\+\_\+fast\+\_\+delete}}
+\index{can\+\_\+fast\+\_\+delete@{can\+\_\+fast\+\_\+delete}!django\+::contrib\+::admin\+::utils\+::\+Nested\+Objects@{django\+::contrib\+::admin\+::utils\+::\+Nested\+Objects}}
+\subsubsection{\texorpdfstring{can\+\_\+fast\+\_\+delete()}{can\_fast\_delete()}}
+{\footnotesize\ttfamily def django.\+contrib.\+admin.\+utils.\+Nested\+Objects.\+can\+\_\+fast\+\_\+delete (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{args,  }\item[{}]{kwargs }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}We always want to load the objects into memory so that we can display
+them to the user in confirm page.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_afbdc67f5d571f29ac802a0ed270238a3}\label{classdjango_1_1contrib_1_1admin_1_1utils_1_1_nested_objects_afbdc67f5d571f29ac802a0ed270238a3}} 
+\index{django\+::contrib\+::admin\+::utils\+::\+Nested\+Objects@{django\+::contrib\+::admin\+::utils\+::\+Nested\+Objects}!nested@{nested}}
+\index{nested@{nested}!django\+::contrib\+::admin\+::utils\+::\+Nested\+Objects@{django\+::contrib\+::admin\+::utils\+::\+Nested\+Objects}}
+\subsubsection{\texorpdfstring{nested()}{nested()}}
+{\footnotesize\ttfamily def django.\+contrib.\+admin.\+utils.\+Nested\+Objects.\+nested (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{format\+\_\+callback = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the graph as a nested list.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/admin/utils.\+py\end{DoxyCompactItemize}

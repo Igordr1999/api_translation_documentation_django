@@ -1,0 +1,48 @@
+\hypertarget{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter}{}\section{django.\+contrib.\+gis.\+db.\+backends.\+oracle.\+adapter.\+Oracle\+Spatial\+Adapter Class Reference}
+\label{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter}\index{django.\+contrib.\+gis.\+db.\+backends.\+oracle.\+adapter.\+Oracle\+Spatial\+Adapter@{django.\+contrib.\+gis.\+db.\+backends.\+oracle.\+adapter.\+Oracle\+Spatial\+Adapter}}
+Inheritance diagram for django.\+contrib.\+gis.\+db.\+backends.\+oracle.\+adapter.\+Oracle\+Spatial\+Adapter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_afe965ce4ee912f9737be321721841053}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, geom)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_a307eecc3853aad4f9108eec7646d2c10}\label{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_a307eecc3853aad4f9108eec7646d2c10}} 
+{\bfseries wkt}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_adf90bfc8413c4157521458a4b38feeaa}\label{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_adf90bfc8413c4157521458a4b38feeaa}} 
+{\bfseries srid}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_ab89b42a2edc97b81f78bd5dabf98eda3}\label{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_ab89b42a2edc97b81f78bd5dabf98eda3}} 
+{\bfseries input\+\_\+size}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_afe965ce4ee912f9737be321721841053}\label{classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1adapter_1_1_oracle_spatial_adapter_afe965ce4ee912f9737be321721841053}} 
+\index{django\+::contrib\+::gis\+::db\+::backends\+::oracle\+::adapter\+::\+Oracle\+Spatial\+Adapter@{django\+::contrib\+::gis\+::db\+::backends\+::oracle\+::adapter\+::\+Oracle\+Spatial\+Adapter}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!django\+::contrib\+::gis\+::db\+::backends\+::oracle\+::adapter\+::\+Oracle\+Spatial\+Adapter@{django\+::contrib\+::gis\+::db\+::backends\+::oracle\+::adapter\+::\+Oracle\+Spatial\+Adapter}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def django.\+contrib.\+gis.\+db.\+backends.\+oracle.\+adapter.\+Oracle\+Spatial\+Adapter.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{geom }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Oracle requires that polygon rings are in proper orientation. This
+affects spatial operations and an invalid orientation may cause
+failures. Correct orientations are:
+ * Outer ring - counter clockwise
+ * Inner ring(s) - clockwise
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/gis/db/backends/oracle/adapter.\+py\end{DoxyCompactItemize}

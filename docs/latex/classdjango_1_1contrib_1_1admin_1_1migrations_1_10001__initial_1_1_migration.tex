@@ -1,0 +1,95 @@
+\hypertarget{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration}{}\section{django.\+contrib.\+admin.\+migrations.0001\+\_\+initial.Migration Class Reference}
+\label{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration}\index{django.\+contrib.\+admin.\+migrations.\+0001\+\_\+initial.\+Migration@{django.\+contrib.\+admin.\+migrations.\+0001\+\_\+initial.\+Migration}}
+Inheritance diagram for django.\+contrib.\+admin.\+migrations.0001\+\_\+initial.Migration\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration}
+\end{center}
+\end{figure}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a765e6f4134fbe6f47bf9afbf5798afcb}\label{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a765e6f4134fbe6f47bf9afbf5798afcb}} 
+{\bfseries dependencies}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_aea4e3e5bc2a503deb94e6caab07de924}\label{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_aea4e3e5bc2a503deb94e6caab07de924}} 
+{\bfseries operations}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_add4934d8db65d807a5e8da2a345cc913}\label{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_add4934d8db65d807a5e8da2a345cc913}} 
+string {\bfseries name} = \textquotesingle{}Log\+Entry\textquotesingle{},
+\item 
+list {\bfseries fields}
+\item 
+dictionary {\bfseries options}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a2c83963c446cfb5554247983320eb144}\label{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a2c83963c446cfb5554247983320eb144}} 
+tuple {\bfseries bases} = (models.\+Model,),
+\item 
+list {\bfseries managers}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a2fe0536ce0925504fb463b7f367913e5}\label{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a2fe0536ce0925504fb463b7f367913e5}} 
+\index{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration}!fields@{fields}}
+\index{fields@{fields}!django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration}}
+\subsubsection{\texorpdfstring{fields}{fields}}
+{\footnotesize\ttfamily list django.\+contrib.\+admin.\+migrations.\+0001\+\_\+initial.\+Migration.\+fields\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= [
+                (\textcolor{stringliteral}{'id'}, models.AutoField(verbose\_name=\textcolor{stringliteral}{'ID'}, serialize=\textcolor{keyword}{False}, auto\_created=\textcolor{keyword}{True}, primary\_key=\textcolor{keyword}{
+      True})),
+                (\textcolor{stringliteral}{'action\_time'}, models.DateTimeField(auto\_now=\textcolor{keyword}{True}, verbose\_name=\textcolor{stringliteral}{'action time'})),
+                (\textcolor{stringliteral}{'object\_id'}, models.TextField(null=\textcolor{keyword}{True}, verbose\_name=\textcolor{stringliteral}{'object id'}, blank=\textcolor{keyword}{True})),
+                (\textcolor{stringliteral}{'object\_repr'}, models.CharField(max\_length=200, verbose\_name=\textcolor{stringliteral}{'object repr'})),
+                (\textcolor{stringliteral}{'action\_flag'}, models.PositiveSmallIntegerField(verbose\_name=\textcolor{stringliteral}{'action flag'})),
+                (\textcolor{stringliteral}{'change\_message'}, models.TextField(verbose\_name=\textcolor{stringliteral}{'change message'}, blank=\textcolor{keyword}{True})),
+                (\textcolor{stringliteral}{'content\_type'}, models.ForeignKey(
+                    to\_field=\textcolor{stringliteral}{'id'},
+                    on\_delete=models.SET\_NULL,
+                    blank=\textcolor{keyword}{True}, null=\textcolor{keyword}{True},
+                    to=\textcolor{stringliteral}{'contenttypes.ContentType'},
+                    verbose\_name=\textcolor{stringliteral}{'content type'},
+                )),
+                (\textcolor{stringliteral}{'user'}, models.ForeignKey(
+                    to=settings.AUTH\_USER\_MODEL,
+                    on\_delete=models.CASCADE,
+                    verbose\_name=\textcolor{stringliteral}{'user'},
+                )),
+            ],
+\end{DoxyCode}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a2e0d66bed4d1cc4a280e897d067b8610}\label{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a2e0d66bed4d1cc4a280e897d067b8610}} 
+\index{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration}!managers@{managers}}
+\index{managers@{managers}!django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration}}
+\subsubsection{\texorpdfstring{managers}{managers}}
+{\footnotesize\ttfamily list django.\+contrib.\+admin.\+migrations.\+0001\+\_\+initial.\+Migration.\+managers\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= [
+                (\textcolor{stringliteral}{'objects'}, \mbox{\hyperlink{classdjango_1_1contrib_1_1admin_1_1models_1_1_log_entry_manager}{django.contrib.admin.models.LogEntryManager}}
+      ()),
+            ],
+\end{DoxyCode}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a24eccfe38aceba48444014de45a6d6e4}\label{classdjango_1_1contrib_1_1admin_1_1migrations_1_10001__initial_1_1_migration_a24eccfe38aceba48444014de45a6d6e4}} 
+\index{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration}!options@{options}}
+\index{options@{options}!django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::admin\+::migrations\+::0001\+\_\+initial\+::\+Migration}}
+\subsubsection{\texorpdfstring{options}{options}}
+{\footnotesize\ttfamily dictionary django.\+contrib.\+admin.\+migrations.\+0001\+\_\+initial.\+Migration.\+options\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{
+                \textcolor{stringliteral}{'ordering'}: (\textcolor{stringliteral}{'-action\_time'},),
+                \textcolor{stringliteral}{'db\_table'}: \textcolor{stringliteral}{'django\_admin\_log'},
+                \textcolor{stringliteral}{'verbose\_name'}: \textcolor{stringliteral}{'log entry'},
+                \textcolor{stringliteral}{'verbose\_name\_plural'}: \textcolor{stringliteral}{'log entries'},
+            \},
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/admin/migrations/0001\+\_\+initial.\+py\end{DoxyCompactItemize}

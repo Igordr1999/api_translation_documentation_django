@@ -1,0 +1,127 @@
+\hypertarget{classnews_1_1models_1_1_blog}{}\section{news.\+models.\+Blog Class Reference}
+\label{classnews_1_1models_1_1_blog}\index{news.\+models.\+Blog@{news.\+models.\+Blog}}
+Inheritance diagram for news.\+models.\+Blog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classnews_1_1models_1_1_blog}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classnews_1_1models_1_1_blog_a5cf49bbf405b3dfcbbe79905827ee3e7}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\begin{DoxyCompactList}\small\item\em Documentation for a function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classnews_1_1models_1_1_blog_a0ce1740083f2e95fa0d6709b795a2be3}{section}} = models.\+Char\+Field(max\+\_\+length=20)
+\item 
+\mbox{\hyperlink{classnews_1_1models_1_1_blog_a6adf7861b13c6898f5b74d18e91bf8c7}{title}} = models.\+Char\+Field(max\+\_\+length=50)
+\item 
+\mbox{\hyperlink{classnews_1_1models_1_1_blog_a44b6e01f0f7ca6ae9bd23477755efc81}{rating}} = models.\+Integer\+Field()
+\item 
+\mbox{\hyperlink{classnews_1_1models_1_1_blog_aee461adb8edec4537b75b01175074aba}{text}} = models.\+Char\+Field(max\+\_\+length=100)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}    @brief Краткое описание
+
+    Полное описание
+
+    Attributes:
+        id: achievement identifier
+        type: type of achievement
+        n: amount of elementary actions enough to get achievement\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnews_1_1models_1_1_blog_a5cf49bbf405b3dfcbbe79905827ee3e7}\label{classnews_1_1models_1_1_blog_a5cf49bbf405b3dfcbbe79905827ee3e7}} 
+\index{news\+::models\+::\+Blog@{news\+::models\+::\+Blog}!\+\_\+\+\_\+str\+\_\+\+\_\+@{\+\_\+\+\_\+str\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+str\+\_\+\+\_\+@{\+\_\+\+\_\+str\+\_\+\+\_\+}!news\+::models\+::\+Blog@{news\+::models\+::\+Blog}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+str\+\_\+\+\_\+()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily def news.\+models.\+Blog.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Documentation for a function. 
+
+Данная функция реализует алгоритм Евклида, при помощи которого находится наибольшее общее кратное у двух чисел.
+
+\begin{DoxyAuthor}{Author}
+Igor 
+\end{DoxyAuthor}
+\begin{DoxyWarning}{Warning}
+Необходимо тестирование 
+\end{DoxyWarning}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]Описание бага \end{DoxyRefDesc}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+14.\+10.\+2018 
+\end{DoxyDate}
+\begin{DoxyPrecond}{Precondition}
+Предварительное условие 
+\end{DoxyPrecond}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]Дописать пару функций 
+
+Протестить\end{DoxyRefDesc}
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Параметр 1 \\
+\hline
+{\em b} & Параметр 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Сумму двух чисел, переданных в качестве аргументов
+\end{DoxyReturn}
+Код функции выглядит следующим образом\+: 
+\begin{DoxyCode}
+    int gcd(int a, int b) \{
+int r;
+\textcolor{keywordflow}{while} (b) \{
+    r = a % b;
+    a = b;
+    b = r;
+\}
+\textcolor{keywordflow}{return} r;
+    \}
+\end{DoxyCode}
+ 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classnews_1_1models_1_1_blog_a44b6e01f0f7ca6ae9bd23477755efc81}\label{classnews_1_1models_1_1_blog_a44b6e01f0f7ca6ae9bd23477755efc81}} 
+\index{news\+::models\+::\+Blog@{news\+::models\+::\+Blog}!rating@{rating}}
+\index{rating@{rating}!news\+::models\+::\+Blog@{news\+::models\+::\+Blog}}
+\subsubsection{\texorpdfstring{rating}{rating}}
+{\footnotesize\ttfamily news.\+models.\+Blog.\+rating = models.\+Integer\+Field()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classnews_1_1models_1_1_blog_a0ce1740083f2e95fa0d6709b795a2be3}\label{classnews_1_1models_1_1_blog_a0ce1740083f2e95fa0d6709b795a2be3}} 
+\index{news\+::models\+::\+Blog@{news\+::models\+::\+Blog}!section@{section}}
+\index{section@{section}!news\+::models\+::\+Blog@{news\+::models\+::\+Blog}}
+\subsubsection{\texorpdfstring{section}{section}}
+{\footnotesize\ttfamily news.\+models.\+Blog.\+section = models.\+Char\+Field(max\+\_\+length=20)\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classnews_1_1models_1_1_blog_aee461adb8edec4537b75b01175074aba}\label{classnews_1_1models_1_1_blog_aee461adb8edec4537b75b01175074aba}} 
+\index{news\+::models\+::\+Blog@{news\+::models\+::\+Blog}!text@{text}}
+\index{text@{text}!news\+::models\+::\+Blog@{news\+::models\+::\+Blog}}
+\subsubsection{\texorpdfstring{text}{text}}
+{\footnotesize\ttfamily news.\+models.\+Blog.\+text = models.\+Char\+Field(max\+\_\+length=100)\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classnews_1_1models_1_1_blog_a6adf7861b13c6898f5b74d18e91bf8c7}\label{classnews_1_1models_1_1_blog_a6adf7861b13c6898f5b74d18e91bf8c7}} 
+\index{news\+::models\+::\+Blog@{news\+::models\+::\+Blog}!title@{title}}
+\index{title@{title}!news\+::models\+::\+Blog@{news\+::models\+::\+Blog}}
+\subsubsection{\texorpdfstring{title}{title}}
+{\footnotesize\ttfamily news.\+models.\+Blog.\+title = models.\+Char\+Field(max\+\_\+length=50)\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+news/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

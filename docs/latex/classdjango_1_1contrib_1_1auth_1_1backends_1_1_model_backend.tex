@@ -1,0 +1,79 @@
+\hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend}{}\section{django.\+contrib.\+auth.\+backends.\+Model\+Backend Class Reference}
+\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend}\index{django.\+contrib.\+auth.\+backends.\+Model\+Backend@{django.\+contrib.\+auth.\+backends.\+Model\+Backend}}
+Inheritance diagram for django.\+contrib.\+auth.\+backends.\+Model\+Backend\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.181818cm]{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a9a436af1d98f661bb94c1590c6450f89}\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a9a436af1d98f661bb94c1590c6450f89}} 
+def {\bfseries authenticate} (self, request, username=None, password=None, kwargs)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a975db86c12c2ffcdb467340075f1a540}{user\+\_\+can\+\_\+authenticate}} (self, user)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a4fd27154416352bef1edfc9e168d3fd7}{get\+\_\+user\+\_\+permissions}} (self, user\+\_\+obj, obj=None)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_aaa64689bb804ed118d4a4a84971ca62a}{get\+\_\+group\+\_\+permissions}} (self, user\+\_\+obj, obj=None)
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_ab528a241dbfb23eaadfda42fb5883b12}\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_ab528a241dbfb23eaadfda42fb5883b12}} 
+def {\bfseries get\+\_\+all\+\_\+permissions} (self, user\+\_\+obj, obj=None)
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_aee2d53612dc1a5ce0307eca7b574e590}\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_aee2d53612dc1a5ce0307eca7b574e590}} 
+def {\bfseries has\+\_\+perm} (self, user\+\_\+obj, perm, obj=None)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a5471478f39db4cfd655dd3d484c489f1}{has\+\_\+module\+\_\+perms}} (self, user\+\_\+obj, app\+\_\+label)
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a50eb49cd147b266ac55c9516b71219c9}\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a50eb49cd147b266ac55c9516b71219c9}} 
+def {\bfseries get\+\_\+user} (self, user\+\_\+id)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Authenticates against settings.AUTH_USER_MODEL.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_aaa64689bb804ed118d4a4a84971ca62a}\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_aaa64689bb804ed118d4a4a84971ca62a}} 
+\index{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend@{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend}!get\+\_\+group\+\_\+permissions@{get\+\_\+group\+\_\+permissions}}
+\index{get\+\_\+group\+\_\+permissions@{get\+\_\+group\+\_\+permissions}!django\+::contrib\+::auth\+::backends\+::\+Model\+Backend@{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend}}
+\subsubsection{\texorpdfstring{get\+\_\+group\+\_\+permissions()}{get\_group\_permissions()}}
+{\footnotesize\ttfamily def django.\+contrib.\+auth.\+backends.\+Model\+Backend.\+get\+\_\+group\+\_\+permissions (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{user\+\_\+obj,  }\item[{}]{obj = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return a set of permission strings the user `user_obj` has from the
+groups they belong.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a4fd27154416352bef1edfc9e168d3fd7}\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a4fd27154416352bef1edfc9e168d3fd7}} 
+\index{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend@{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend}!get\+\_\+user\+\_\+permissions@{get\+\_\+user\+\_\+permissions}}
+\index{get\+\_\+user\+\_\+permissions@{get\+\_\+user\+\_\+permissions}!django\+::contrib\+::auth\+::backends\+::\+Model\+Backend@{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend}}
+\subsubsection{\texorpdfstring{get\+\_\+user\+\_\+permissions()}{get\_user\_permissions()}}
+{\footnotesize\ttfamily def django.\+contrib.\+auth.\+backends.\+Model\+Backend.\+get\+\_\+user\+\_\+permissions (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{user\+\_\+obj,  }\item[{}]{obj = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return a set of permission strings the user `user_obj` has from their
+`user_permissions`.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a5471478f39db4cfd655dd3d484c489f1}\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a5471478f39db4cfd655dd3d484c489f1}} 
+\index{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend@{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend}!has\+\_\+module\+\_\+perms@{has\+\_\+module\+\_\+perms}}
+\index{has\+\_\+module\+\_\+perms@{has\+\_\+module\+\_\+perms}!django\+::contrib\+::auth\+::backends\+::\+Model\+Backend@{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend}}
+\subsubsection{\texorpdfstring{has\+\_\+module\+\_\+perms()}{has\_module\_perms()}}
+{\footnotesize\ttfamily def django.\+contrib.\+auth.\+backends.\+Model\+Backend.\+has\+\_\+module\+\_\+perms (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{user\+\_\+obj,  }\item[{}]{app\+\_\+label }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return True if user_obj has any permissions in the given app_label.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a975db86c12c2ffcdb467340075f1a540}\label{classdjango_1_1contrib_1_1auth_1_1backends_1_1_model_backend_a975db86c12c2ffcdb467340075f1a540}} 
+\index{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend@{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend}!user\+\_\+can\+\_\+authenticate@{user\+\_\+can\+\_\+authenticate}}
+\index{user\+\_\+can\+\_\+authenticate@{user\+\_\+can\+\_\+authenticate}!django\+::contrib\+::auth\+::backends\+::\+Model\+Backend@{django\+::contrib\+::auth\+::backends\+::\+Model\+Backend}}
+\subsubsection{\texorpdfstring{user\+\_\+can\+\_\+authenticate()}{user\_can\_authenticate()}}
+{\footnotesize\ttfamily def django.\+contrib.\+auth.\+backends.\+Model\+Backend.\+user\+\_\+can\+\_\+authenticate (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{user }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Reject users with is_active=False. Custom user models that don't have
+that attribute are allowed.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/auth/backends.\+py\end{DoxyCompactItemize}

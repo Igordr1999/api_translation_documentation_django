@@ -1,0 +1,80 @@
+\hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter}{}\section{django.\+contrib.\+admin.\+filters.\+List\+Filter Class Reference}
+\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter}\index{django.\+contrib.\+admin.\+filters.\+List\+Filter@{django.\+contrib.\+admin.\+filters.\+List\+Filter}}
+Inheritance diagram for django.\+contrib.\+admin.\+filters.\+List\+Filter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.391304cm]{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a70915241f3547958fcfac26a5fae3cc6}\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a70915241f3547958fcfac26a5fae3cc6}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, request, params, model, model\+\_\+admin)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_aa658bcb5f1bd4970a7fe7e78a2a8f457}{has\+\_\+output}} (self)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_ac69878c2063911721147847a6e8bc5d5}{choices}} (self, changelist)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_aed1f92493175185d1714cb763f6efa08}{queryset}} (self, request, queryset)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a164a6d28582db5c168810ee9fdbee4b3}{expected\+\_\+parameters}} (self)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_aa3a0b86f3d0e796a9eb82166cb05102a}\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_aa3a0b86f3d0e796a9eb82166cb05102a}} 
+{\bfseries used\+\_\+parameters}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a63544acbb1c8ab6a1fa4370843434cf5}\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a63544acbb1c8ab6a1fa4370843434cf5}} 
+{\bfseries title} = None
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a1468d2136310c257059495cea78a4344}\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a1468d2136310c257059495cea78a4344}} 
+string {\bfseries template} = \textquotesingle{}admin/filter.\+html\textquotesingle{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_ac69878c2063911721147847a6e8bc5d5}\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_ac69878c2063911721147847a6e8bc5d5}} 
+\index{django\+::contrib\+::admin\+::filters\+::\+List\+Filter@{django\+::contrib\+::admin\+::filters\+::\+List\+Filter}!choices@{choices}}
+\index{choices@{choices}!django\+::contrib\+::admin\+::filters\+::\+List\+Filter@{django\+::contrib\+::admin\+::filters\+::\+List\+Filter}}
+\subsubsection{\texorpdfstring{choices()}{choices()}}
+{\footnotesize\ttfamily def django.\+contrib.\+admin.\+filters.\+List\+Filter.\+choices (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{changelist }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return choices ready to be output in the template.
+
+`changelist` is the ChangeList to be displayed.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a164a6d28582db5c168810ee9fdbee4b3}\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_a164a6d28582db5c168810ee9fdbee4b3}} 
+\index{django\+::contrib\+::admin\+::filters\+::\+List\+Filter@{django\+::contrib\+::admin\+::filters\+::\+List\+Filter}!expected\+\_\+parameters@{expected\+\_\+parameters}}
+\index{expected\+\_\+parameters@{expected\+\_\+parameters}!django\+::contrib\+::admin\+::filters\+::\+List\+Filter@{django\+::contrib\+::admin\+::filters\+::\+List\+Filter}}
+\subsubsection{\texorpdfstring{expected\+\_\+parameters()}{expected\_parameters()}}
+{\footnotesize\ttfamily def django.\+contrib.\+admin.\+filters.\+List\+Filter.\+expected\+\_\+parameters (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the list of parameter names that are expected from the
+request's query string and that will be used by this filter.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_aa658bcb5f1bd4970a7fe7e78a2a8f457}\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_aa658bcb5f1bd4970a7fe7e78a2a8f457}} 
+\index{django\+::contrib\+::admin\+::filters\+::\+List\+Filter@{django\+::contrib\+::admin\+::filters\+::\+List\+Filter}!has\+\_\+output@{has\+\_\+output}}
+\index{has\+\_\+output@{has\+\_\+output}!django\+::contrib\+::admin\+::filters\+::\+List\+Filter@{django\+::contrib\+::admin\+::filters\+::\+List\+Filter}}
+\subsubsection{\texorpdfstring{has\+\_\+output()}{has\_output()}}
+{\footnotesize\ttfamily def django.\+contrib.\+admin.\+filters.\+List\+Filter.\+has\+\_\+output (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return True if some choices would be output for this filter.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_aed1f92493175185d1714cb763f6efa08}\label{classdjango_1_1contrib_1_1admin_1_1filters_1_1_list_filter_aed1f92493175185d1714cb763f6efa08}} 
+\index{django\+::contrib\+::admin\+::filters\+::\+List\+Filter@{django\+::contrib\+::admin\+::filters\+::\+List\+Filter}!queryset@{queryset}}
+\index{queryset@{queryset}!django\+::contrib\+::admin\+::filters\+::\+List\+Filter@{django\+::contrib\+::admin\+::filters\+::\+List\+Filter}}
+\subsubsection{\texorpdfstring{queryset()}{queryset()}}
+{\footnotesize\ttfamily def django.\+contrib.\+admin.\+filters.\+List\+Filter.\+queryset (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{request,  }\item[{}]{queryset }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Return the filtered queryset.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/admin/filters.\+py\end{DoxyCompactItemize}

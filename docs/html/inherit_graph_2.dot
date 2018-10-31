@@ -1,0 +1,21 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="Migration",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="news.migrations.0001\l_initial.Migration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnews_1_1migrations_1_10001__initial_1_1_migration.html"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="news.migrations.0002\l_auto_20181009_2006.Migration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnews_1_1migrations_1_10002__auto__20181009__2006_1_1_migration.html"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="news.migrations.0003\l_text.Migration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnews_1_1migrations_1_10003__text_1_1_migration.html"];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="news.migrations.0004\l_delete_text.Migration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnews_1_1migrations_1_10004__delete__text_1_1_migration.html"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="news.migrations.0005\l_blog.Migration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnews_1_1migrations_1_10005__blog_1_1_migration.html"];
+  Node8 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="news.migrations.0006\l_auto_20181013_0120.Migration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnews_1_1migrations_1_10006__auto__20181013__0120_1_1_migration.html"];
+  Node8 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="news.migrations.0007\l_auto_20181013_0120.Migration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnews_1_1migrations_1_10007__auto__20181013__0120_1_1_migration.html"];
+}

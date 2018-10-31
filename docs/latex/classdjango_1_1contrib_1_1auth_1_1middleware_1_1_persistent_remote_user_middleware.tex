@@ -1,0 +1,31 @@
+\hypertarget{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_persistent_remote_user_middleware}{}\section{django.\+contrib.\+auth.\+middleware.\+Persistent\+Remote\+User\+Middleware Class Reference}
+\label{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_persistent_remote_user_middleware}\index{django.\+contrib.\+auth.\+middleware.\+Persistent\+Remote\+User\+Middleware@{django.\+contrib.\+auth.\+middleware.\+Persistent\+Remote\+User\+Middleware}}
+Inheritance diagram for django.\+contrib.\+auth.\+middleware.\+Persistent\+Remote\+User\+Middleware\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_persistent_remote_user_middleware}
+\end{center}
+\end{figure}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_persistent_remote_user_middleware_abdd37e2d6d902da3d4a43a937f27e431}\label{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_persistent_remote_user_middleware_abdd37e2d6d902da3d4a43a937f27e431}} 
+{\bfseries force\+\_\+logout\+\_\+if\+\_\+no\+\_\+header}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Middleware for Web-server provided authentication on logon pages.
+
+Like RemoteUserMiddleware but keeps the user authenticated even if
+the header (``REMOTE_USER``) is not found in the request. Useful
+for setups when the external authentication via ``REMOTE_USER``
+is only expected to happen on some "logon" URL and the rest of
+the application wants to use Django's authentication mechanism.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/auth/middleware.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,57 @@
+\hypertarget{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware}{}\section{django.\+contrib.\+auth.\+middleware.\+Remote\+User\+Middleware Class Reference}
+\label{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware}\index{django.\+contrib.\+auth.\+middleware.\+Remote\+User\+Middleware@{django.\+contrib.\+auth.\+middleware.\+Remote\+User\+Middleware}}
+Inheritance diagram for django.\+contrib.\+auth.\+middleware.\+Remote\+User\+Middleware\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_a6dfcaf05bf8b7a0617ed19a11d35f550}\label{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_a6dfcaf05bf8b7a0617ed19a11d35f550}} 
+def {\bfseries process\+\_\+request} (self, request)
+\item 
+def \mbox{\hyperlink{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_adf328662e2d470e0cde2d82721308296}{clean\+\_\+username}} (self, username, request)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_aa26e5855b9ea094142fc09c113e58a71}\label{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_aa26e5855b9ea094142fc09c113e58a71}} 
+{\bfseries header}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_a1f14f9f06d1045f3865fed7665e9fabf}\label{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_a1f14f9f06d1045f3865fed7665e9fabf}} 
+{\bfseries force\+\_\+logout\+\_\+if\+\_\+no\+\_\+header}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Middleware for utilizing Web-server-provided authentication.
+
+If request.user is not authenticated, then this middleware attempts to
+authenticate the username passed in the ``REMOTE_USER`` request header.
+If authentication is successful, the user is automatically logged in to
+persist the user in the session.
+
+The header used is configurable and defaults to ``REMOTE_USER``.  Subclass
+this class and change the ``header`` attribute if you need to use a
+different header.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_adf328662e2d470e0cde2d82721308296}\label{classdjango_1_1contrib_1_1auth_1_1middleware_1_1_remote_user_middleware_adf328662e2d470e0cde2d82721308296}} 
+\index{django\+::contrib\+::auth\+::middleware\+::\+Remote\+User\+Middleware@{django\+::contrib\+::auth\+::middleware\+::\+Remote\+User\+Middleware}!clean\+\_\+username@{clean\+\_\+username}}
+\index{clean\+\_\+username@{clean\+\_\+username}!django\+::contrib\+::auth\+::middleware\+::\+Remote\+User\+Middleware@{django\+::contrib\+::auth\+::middleware\+::\+Remote\+User\+Middleware}}
+\subsubsection{\texorpdfstring{clean\+\_\+username()}{clean\_username()}}
+{\footnotesize\ttfamily def django.\+contrib.\+auth.\+middleware.\+Remote\+User\+Middleware.\+clean\+\_\+username (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{username,  }\item[{}]{request }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Allow the backend to clean the username, if the backend defines a
+clean_username method.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/auth/middleware.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,80 @@
+\hypertarget{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration}{}\section{django.\+contrib.\+flatpages.\+migrations.0001\+\_\+initial.Migration Class Reference}
+\label{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration}\index{django.\+contrib.\+flatpages.\+migrations.\+0001\+\_\+initial.\+Migration@{django.\+contrib.\+flatpages.\+migrations.\+0001\+\_\+initial.\+Migration}}
+Inheritance diagram for django.\+contrib.\+flatpages.\+migrations.0001\+\_\+initial.Migration\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration}
+\end{center}
+\end{figure}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_aefd2787afda3aef95aba0bf9f108cc40}\label{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_aefd2787afda3aef95aba0bf9f108cc40}} 
+{\bfseries dependencies}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a026d8fc271aaca41a32626bf34debff9}\label{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a026d8fc271aaca41a32626bf34debff9}} 
+{\bfseries operations}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a3927685bc2502d7b41d73e1f18b7f3ba}\label{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a3927685bc2502d7b41d73e1f18b7f3ba}} 
+string {\bfseries name} = \textquotesingle{}Flat\+Page\textquotesingle{},
+\item 
+list {\bfseries fields}
+\item 
+dictionary {\bfseries options}
+\item 
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a0879adea70f8e803f0efa6d7c23bc8fa}\label{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a0879adea70f8e803f0efa6d7c23bc8fa}} 
+tuple {\bfseries bases} = (models.\+Model,),
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a3d611c2d2b746948ea474bc748cc3463}\label{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a3d611c2d2b746948ea474bc748cc3463}} 
+\index{django\+::contrib\+::flatpages\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::flatpages\+::migrations\+::0001\+\_\+initial\+::\+Migration}!fields@{fields}}
+\index{fields@{fields}!django\+::contrib\+::flatpages\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::flatpages\+::migrations\+::0001\+\_\+initial\+::\+Migration}}
+\subsubsection{\texorpdfstring{fields}{fields}}
+{\footnotesize\ttfamily list django.\+contrib.\+flatpages.\+migrations.\+0001\+\_\+initial.\+Migration.\+fields\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= [
+                (\textcolor{stringliteral}{'id'}, models.AutoField(verbose\_name=\textcolor{stringliteral}{'ID'}, serialize=\textcolor{keyword}{False}, auto\_created=\textcolor{keyword}{True}, primary\_key=\textcolor{keyword}{
+      True})),
+                (\textcolor{stringliteral}{'url'}, models.CharField(max\_length=100, verbose\_name=\textcolor{stringliteral}{'URL'}, db\_index=\textcolor{keyword}{True})),
+                (\textcolor{stringliteral}{'title'}, models.CharField(max\_length=200, verbose\_name=\textcolor{stringliteral}{'title'})),
+                (\textcolor{stringliteral}{'content'}, models.TextField(verbose\_name=\textcolor{stringliteral}{'content'}, blank=\textcolor{keyword}{True})),
+                (\textcolor{stringliteral}{'enable\_comments'}, models.BooleanField(default=\textcolor{keyword}{False}, verbose\_name=\textcolor{stringliteral}{'enable comments'})),
+                (\textcolor{stringliteral}{'template\_name'}, models.CharField(
+                    help\_text=(
+                        \textcolor{stringliteral}{"Example: 'flatpages/contact\_page.html'. If this isn't provided, the system will
+       use "}
+                        \textcolor{stringliteral}{"'flatpages/default.html'."}
+                    ), max\_length=70, verbose\_name=\textcolor{stringliteral}{'template name'}, blank=\textcolor{keyword}{True}
+                )),
+                (\textcolor{stringliteral}{'registration\_required'}, models.BooleanField(
+                    default=\textcolor{keyword}{False}, help\_text=\textcolor{stringliteral}{'If this is checked, only logged-in users will be able to view
+       the page.'},
+                    verbose\_name=\textcolor{stringliteral}{'registration required'}
+                )),
+                (\textcolor{stringliteral}{'sites'}, models.ManyToManyField(to=\textcolor{stringliteral}{'sites.Site'}, verbose\_name=\textcolor{stringliteral}{'sites'})),
+            ],
+\end{DoxyCode}
+\mbox{\Hypertarget{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a939db491189788b533074c31c0f02a26}\label{classdjango_1_1contrib_1_1flatpages_1_1migrations_1_10001__initial_1_1_migration_a939db491189788b533074c31c0f02a26}} 
+\index{django\+::contrib\+::flatpages\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::flatpages\+::migrations\+::0001\+\_\+initial\+::\+Migration}!options@{options}}
+\index{options@{options}!django\+::contrib\+::flatpages\+::migrations\+::0001\+\_\+initial\+::\+Migration@{django\+::contrib\+::flatpages\+::migrations\+::0001\+\_\+initial\+::\+Migration}}
+\subsubsection{\texorpdfstring{options}{options}}
+{\footnotesize\ttfamily dictionary django.\+contrib.\+flatpages.\+migrations.\+0001\+\_\+initial.\+Migration.\+options\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{
+                \textcolor{stringliteral}{'ordering'}: (\textcolor{stringliteral}{'url'},),
+                \textcolor{stringliteral}{'db\_table'}: \textcolor{stringliteral}{'django\_flatpage'},
+                \textcolor{stringliteral}{'verbose\_name'}: \textcolor{stringliteral}{'flat page'},
+                \textcolor{stringliteral}{'verbose\_name\_plural'}: \textcolor{stringliteral}{'flat pages'},
+            \},
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+E\+E/\+Lib/site-\/packages/django/contrib/flatpages/migrations/0001\+\_\+initial.\+py\end{DoxyCompactItemize}
